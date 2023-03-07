@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee6b60e8497d304f6ba8b15e26a25b29",
+    "revision": "5eaf66d5ea7ca03035fd24bd334d1e11",
     "url": "/keeperapp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/keeperapp/static/js/2.16de64e5.chunk.js"
   },
   {
-    "revision": "dfbe67cdd8b3f8ac7d4b",
-    "url": "/keeperapp/static/js/main.34149b2e.chunk.js"
+    "revision": "dbb88dbdf49ef814874c",
+    "url": "/keeperapp/static/js/main.af046230.chunk.js"
   },
   {
     "revision": "e4fabe411e690a895a41",
