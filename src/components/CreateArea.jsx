@@ -26,6 +26,7 @@ function CreateArea(props) {
 
   function submitNote(event) {
     props.onAdd(note);
+    event.preventDefault();
     setNote({
       title: "",
       content: "",
@@ -36,7 +37,7 @@ function CreateArea(props) {
 
   return (
     <div>
-      <form className="create-note">
+      <form onSubmit={submitNote} className="create-note">
         {expanded && (
           <Zoom in={expanded}>
             <input
