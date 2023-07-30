@@ -1,0 +1,22 @@
+@use '../abstracts/variables' as *;
+
+body {
+  background: url(https://www.transparenttextures.com/patterns/cubes.png) $gray;
+  font-family: $main-font-family;
+  font-size: 1.125rem;
+}
+
+.main-header {
+  color: $white;
+  background-color: $yellow;
+
+  font-family: $secondary-font-family;
+  text-align: center;
+}
+
+.main-title {
+  display: inline-block;
+
+  font-size: 2rem;
+  font-weight: 200;
+}

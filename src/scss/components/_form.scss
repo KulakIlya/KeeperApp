@@ -1,0 +1,62 @@
+@use '../abstracts/variables' as *;
+
+.main-form {
+  position: relative;
+
+  margin: 20px auto;
+  padding: 15px;
+
+  width: 60%;
+  min-width: 240px;
+  max-width: 480px;
+
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+
+  background-color: $white;
+
+  &__input {
+    padding: 4px;
+
+    width: 100%;
+
+    display: block;
+
+    outline: none;
+
+    &--txt-area {
+      resize: none;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  .btn--add-note {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    position: absolute;
+    bottom: -18px;
+    right: 18px;
+
+    color: $white;
+    background-color: $yellow;
+
+    border-radius: 50%;
+
+    outline: none;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+
+    transition: all 0.25s ease-in;
+    &:hover {
+      background-color: $white-gray;
+      color: $yellow;
+    }
+  }
+}

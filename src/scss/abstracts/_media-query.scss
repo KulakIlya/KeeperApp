@@ -1,0 +1,24 @@
+@use './variables' as *;
+@use './mixins' as *;
+
+.main-header {
+  @media screen and (min-width: $desktop) {
+    text-align: left;
+  }
+  svg {
+    @media screen and (max-width: 280px) {
+      display: none;
+    }
+  }
+}
+
+.note-list {
+  &__item {
+    @media screen and (min-width: $mobile) {
+      @include calc-flex-basis(15px, 3);
+    }
+    @media screen and (min-width: $desktop) {
+      @include calc-flex-basis(15px, 5);
+    }
+  }
+}
